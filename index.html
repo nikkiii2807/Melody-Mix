@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melody Mix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="Logo.png">Melody Mix </li>
+            <li>Home</li>
+            <li>About Us</li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="songlist">
+        <h1>MelodyMix: Your Musical Retreat</h1>
+        
+            <div class="songItem">
+                <span class="song-name">Is This Love</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="1" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Hasi</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="2" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Chand Sifarish</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="3" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Iktara</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="4" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Deewani Mastani</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="5" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Mai agar kahoon</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="6" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Main Rang Sharbotan ka</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="7" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Tere Sang Yaara</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="8" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Tu Jane na</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="9" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+            <div class="songItem">
+                <span class="song-name">Tum se hi</span>
+                <span class="songlistplay"><span class=timestamp>05:42 <i id="10" class="fa-regular fa-circle-play songItemPlay" style="color: #0d58d9;"></i></span></span>
+            </div>
+
+        </div>
+        <div class="songBanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0"  value="0" max="100">
+        <div class="icons">
+            
+            <i class="fa-solid fa-backward-fast" id="previous" style="color: #0d58d9;"></i>
+            <i class="fa-regular fa-circle-play" id="masterPlay" style="color: #0d58d9;"></i>
+            <i class="fa-solid fa-forward-fast" id="next" style="color: #0d58d9;"></i>
+        </div>
+        <div class="songInfo">
+            <img src="playing.gif" id="gif" width="42px">  <span id="masterSongName">Is This Love</span>
+        </div>
+        
+        
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
